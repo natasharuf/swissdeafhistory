@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>the history of swiss deaf</title>
+<link rel = "icon" href = "images/switzerland_icon.png" type = "image/x-icon">
+<link rel="stylesheet" href="libraries/normalize.css" />
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700" rel="stylesheet">
+<script src='libraries/leaflet.js'></script>
+<link href='libraries/leaflet.css' rel='stylesheet' />
+<link href='libraries/MarkerCluster.css' rel='stylesheet' />
+<link href='libraries/MarkerCluster.Default.css' rel='stylesheet' />
+<script src='libraries/leaflet.markercluster.js'></script>
+<script src='libraries/markercluster.placement.js'></script>
+<script src='libraries/rbush.js'></script>
+<script src='libraries/Leaflet.LayerGroup.Collision.js'></script>
+<link href="libraries/L.Control.Zoomslider.css" rel="stylesheet" type="text/css">
+<script src='libraries/L.Control.Zoomslider.js'></script>
+<link href="libraries/L.Control.ZoomBox.css" rel="stylesheet" type="text/css">
+<script src='libraries/L.Control.ZoomBox.min.js'></script>
+<script src='libraries/jquery-3.2.1.min.js'></script>
+<link href="style.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <div id="container">
+        <div id="title-mobile" style="display: none"> history <span id="mobile-title2">Timeline</span></div>
+        <div id="title">
+            <h1 class="subtitle1" style="font-size: 17px; border-bottom: 1px solid #999999; line-height:25px;">the history of</h1>
+            <h1 class="title1">Deaf</h1>
+        </div>
+        <div id="viewerselector">
+            <div style="margin: 0 auto; width: 330px;">
+            <ul>
+                <li id="TimelineSelect"><a>Timeline</a></li>
+                <li id="MapSelect"><a>Map</a></li>
+            </ul>
+                </div>
+        </div>
+        <div id="iconkey">
+            <ul>
+                <li style="color: #D15050">switzerland</li>
+                <li style="color: #53ADC4">international</li>
+            </ul>
+        </div>
+        <div id="fulltimeline" title="Zoom out to view the entire timeline">FULL TIMELINE</div>
+        <div id="timelineviewer" style="width: 100%; height: 100vh"></div>
+        <div id="mapviewer" style="width: 100%; height: 100vh; background-color: #191a1a; z-index: 500; position: absolute; left: 0; top: 0"></div>
+        <div id="mobilepopupholder">
+            <a class="exit"><img src="images/close.svg" /></a>
+            <div class="year-location"></div>
+            <div class="title"></div>
+            <div class="description"></div>
+        </div>
+        <div id="attribution" style="display:none">Map: ©
+            <a href="https://www.mapbox.com/about/maps/" target="_blank">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> <strong><a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a></strong>
+        </div>
+    </div>
+ <script src="libraries/d3.min.js"></script>
+ <script src="data.js"></script>
+ <script src="behavior.js"></script>
+ <script src="map.js"></script>
+
+
+</body>
+</html>
