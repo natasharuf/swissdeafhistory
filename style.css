@@ -39,7 +39,7 @@ body {
 }
 
 #timelineviewer {
-  background-color: black;
+  background-color: none;
   background-image: url("images/historia-martha-vineyard-dark.jpg");
   background-size:cover;
 }
@@ -68,7 +68,7 @@ div#title {
   font-family: 'Roboto';
   font-weight: 700;
   margin: 0;
-  color: #999999;
+  color: rgb(255, 255, 255);
 }
 
 #title h1 {
@@ -77,7 +77,7 @@ div#title {
   margin: 0;
   font-size: 3em;
   text-transform: uppercase;
-  color: #999999;
+  color: rgb(255, 255, 255);
 }
 
 .leaflet-control-zoom.leaflet-bar.leaflet-control {
@@ -105,7 +105,7 @@ div#fulltimeline {
   z-index: 1000;
   width: 157px;
   height: 35px;
-  background: #fff;
+  background: rgb(180,180,180,0.7);
   right: 71px;
   bottom: 20px;
   font-family: 'Roboto';
@@ -216,6 +216,7 @@ a.zoomBox {
   text-align: right;
   margin-left: 244px;
   padding-right: 10px;
+  padding-top:10px;
   border-right: #000 solid 2px;
   pointer-events: none;
   padding-bottom: 35px;
@@ -328,21 +329,20 @@ div#viewerselector {
 #viewerselector ul li a {
   display: block;
   text-align: center;
-  width: 160px;
+  width: 120px;
   float: left;
   color: #fff;
-  background: #b4b4b4;
+  background: rgb(50,50,50,0.4);
   height: 30px;
   padding-top: 10px;
   font-family: 'Roboto';
   font-size: 16px;
   text-transform: uppercase;
   z-index: 510;
-  border: 2px solid white;
 }
 
 #viewerselector ul li a:hover {
-  background-color: #999999;
+  background-color: rgb(80,80,80,0.7);
 }
 
 #viewerselector ul {
@@ -353,6 +353,11 @@ div#viewerselector {
 }
 
 #mapviewer .columnRight {
+  background-color: rgba(0, 0, 0, 0.54);
+}
+
+#timelineviewer .columnRight {
+  padding:10px;
   background-color: rgba(0, 0, 0, 0.54);
 }
 

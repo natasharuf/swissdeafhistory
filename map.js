@@ -106,7 +106,7 @@ mapclusters.addTo(mapviewer)
 
 function showMapView() {
     $('#TimelineSelect a').css('background-color','');
-    $('#MapSelect a').css('background-color','#ffffff');
+    $('#MapSelect a').css('background-color','rgb(180,180,180,0.7)');
     $('#mapviewer').css('display','block');
     $('#timelineviewer').css('display','none');
     mapviewer.invalidateSize();
@@ -124,7 +124,7 @@ function showMapView() {
 
 function showTimelineView() {
     $('#MapSelect a').css('background-color','');
-    $('#TimelineSelect a').css('background-color','#ffffff');
+    $('#TimelineSelect a').css('background-color','rgb(180,180,180,0.7)');
     $('#mapviewer').css('display','none');
     $('#timelineviewer').css('display','block');
     $('.leaflet-zoom-box-control.leaflet-bar.leaflet-control').css('display','block');
