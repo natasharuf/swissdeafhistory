@@ -1,6 +1,6 @@
 /* required styles */
 
-.leaflet-pane,
+.leaflet.pane,
 .leaflet-tile,
 .leaflet-marker-icon,
 .leaflet-marker-shadow,
@@ -13,6 +13,7 @@
 	position: absolute;
 	left: 0;
 	top: 0;
+	margin-top: 0px;
 	}
 .leaflet-container {
 	overflow: hidden;
@@ -91,7 +92,7 @@
 .leaflet-tile-pane    { z-index: 200; }
 .leaflet-overlay-pane { z-index: 400; }
 .leaflet-shadow-pane  { z-index: 500; }
-.leaflet-marker-pane  { z-index: 600; }
+.leaflet-marker-pane  { z-index: 600; margin-top: 120px; }
 .leaflet-tooltip-pane   { z-index: 650; }
 .leaflet-popup-pane   { z-index: 700; }
 
