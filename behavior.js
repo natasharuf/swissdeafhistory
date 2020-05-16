@@ -1,10 +1,10 @@
 var currentview = "timelineviewer";
 var currentpopupdata = [];
-var bounds = [[0,600], [0,2600]]; //sets the zoom and panning limits, in this case requires the timeline to be in the middle vertically
+var bounds = [[0,1350], [0,2600]]; //sets the zoom and panning limits, in this case requires the timeline to be in the middle vertically
 //Leaflet Map
 var timelineviewer = L.map('timelineviewer',{crs: L.CRS.Simple,
-                         maxZoom: 5,
-                         minZoom: -2.5,
+                         maxZoom: 4,
+                         minZoom: 0.5,
                          zoomSnap: 0.5,
                          zoomDelta: 0.5,
                          zoomControl: false,

@@ -32,9 +32,9 @@ body {
 
 .leaflet-marker-icon.timeline-part {
   height: 3px !important;
-  width: 1000px !important;
+  width: 2000px !important;
   background-color: gray !important;
-  z-index: 90 !important;
+  z-index: 100 !important;
   margin-left: -500px !important;
 }
 
@@ -80,11 +80,11 @@ div#title {
   color: rgb(255, 255, 255);
 }
 
-.leaflet-control-zoom.leaflet-bar.leaflet-control {
+/*.leaflet-control-zoom.leaflet-bar.leaflet-control {
   border: none !important;
   margin-right: 20px;
   margin-bottom: 20px;
-}
+}*/
 
 .leaflet-bar a {
   border-bottom: none !important;
@@ -106,7 +106,7 @@ div#fulltimeline {
   width: 157px;
   height: 35px;
   background: rgb(180,180,180,0.7);
-  right: 71px;
+  right: 30px;
   bottom: 20px;
   font-family: 'Roboto';
   font-size: 17px;
@@ -121,7 +121,7 @@ div#fulltimeline:hover {
 
 /* Zoom Slider Controls */
 
-.leaflet-control-zoomslider {
+/*.leaflet-control-zoomslider {
   margin-bottom: 20px !important;
   margin-right: 20px !important;
 }
@@ -155,11 +155,11 @@ div#fulltimeline:hover {
 .leaflet-touch .leaflet-control-zoomslider a:hover {
   width: 35px !important;
   line-height: 35px !important;
-}
+}*/
 
 /* Zoom Box Controls */
 
-.leaflet-zoom-box-control.leaflet-bar.leaflet-control {
+/*.leaflet-zoom-box-control.leaflet-bar.leaflet-control {
   position: absolute !important;
   left: -162px !important;
   bottom: 58px !important;
@@ -169,7 +169,7 @@ div#fulltimeline:hover {
   border-radius: 0px !important;
   height: 35px !important;
   box-shadow: none !important;
-}
+}*/
 
 a.zoomBox {
   width: 100% !important;
@@ -227,8 +227,8 @@ a.zoomBox {
   width: 314px;
   height: 170px;
   text-align: left;
-  padding-left: 10px;
-  padding-right: 10px;
+  /*padding-left: 10px;
+  padding-right: 10px;*/
   pointer-events: none;
 }
 
@@ -261,6 +261,7 @@ a.zoomBox {
 
 .columnRight h3 {
   margin-bottom: 2px;
+  padding-left:5px;
 }
 
 .columnRight p {
@@ -269,6 +270,8 @@ a.zoomBox {
   margin: 0px;
   hyphens: auto;
   color: white;
+  padding: 5px;
+
 }
 
 #mapviewer .columnRight p {
@@ -283,7 +286,6 @@ a.zoomBox {
   text-decoration: none;
   color: orange;
   position: fixed;
-  z-index:1;
   overflow; auto;
 
 }
@@ -353,11 +355,14 @@ div#viewerselector {
 }
 
 #mapviewer .columnRight {
+  padding:10px;
+  padding-bottom: 20px;
   background-color: rgba(0, 0, 0, 0.54);
 }
 
 #timelineviewer .columnRight {
   padding:10px;
+  padding-bottom: 20px;
   background-color: rgba(0, 0, 0, 0.54);
 }
 
@@ -402,10 +407,10 @@ div#attribution a {
   font-family: 'Roboto';
 }
 
-.leaflet-zoom-box-control.leaflet-bar.leaflet-control a.zoomBox {
+/*.leaflet-zoom-box-control.leaflet-bar.leaflet-control a.zoomBox {
   line-height: 36px !important;
   height: 36px !important;
-}
+}*/
 
 div#mobilepopupholder {
   display: none;
