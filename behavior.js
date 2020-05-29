@@ -44,12 +44,12 @@ var international = L.icon({
     iconAnchor:   [10, 10],
     popupAnchor:  [0, 0]
 });
-var sport = L.icon({
+/*var sport = L.icon({
     iconUrl: 'images/sport.png',
     iconSize:     [20, 20],
     iconAnchor:   [10, 10],
     popupAnchor:  [0, 0]
-});
+});*/
 
 
 // loop for making all the many lines for the actual line of the timeline
@@ -90,9 +90,9 @@ for(var lineNumber = 0; lineNumber < dataset.length; lineNumber++) {
                     currentColor = '#D15050'
                 } else if(pointType == 'international') {
                     currentColor = '#53ADC4'
-                } else if(pointType == 'sport') {
+                } /*else if(pointType == 'sport') {
                   currentColor = '#F2C1AE'
-                }
+                }*/
 
                 popupComplete = '<div class="customPopup"><div class="columnLeft" style="height:' + heightNeeded + 'px; color:' + currentColor +'; border-color:' + currentColor +'"><h3 class="year">' + year + '</h3><h3 class="location">' + markerLocation + '</div><div class="columnRight" style="height:' + heightNeeded + 'px"><h3 style="color:' + currentColor + '">' + title + '</h3><p>' + text + '</p></div></div>';
 
@@ -100,9 +100,9 @@ for(var lineNumber = 0; lineNumber < dataset.length; lineNumber++) {
                     markerIcon = switzerland;
                 } else if(pointType == 'international') {
                     markerIcon = international;
-                } else if(pointType == 'sport') {
+                } /*else if(pointType == 'sport') {
                     markerIcon = sport;
-                }
+                }*/
 
                 marker = L.marker([latitude,longtitude], {riseOnHover: true, icon: markerIcon}).addTo(markers).bindPopup(popupComplete, {minWidth: 745, autoPan: false}).on('click',movePopup);
 
