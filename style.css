@@ -1,3 +1,22 @@
+@font-face {
+    font-family: 'roboto';
+    src: url('./fonts/Roboto-Black.ttf') format('ttf')
+         url('./fonts/Roboto-BlackItalic.ttf') format('ttf')
+         url('./fonts/Roboto-Bold.ttf') format('ttf')
+         url('./fonts/Roboto-BoldItalic.ttf') format('ttf')
+         url('./fonts/Roboto-Italic.ttf') format('ttf')
+         url('./fonts/Roboto-Light.ttf') format('ttf')
+         url('./fonts/Roboto-LightItalic.ttf') format('ttf')
+         url('./fonts/Roboto-Medium.ttf') format('ttf')
+         url('./fonts/Roboto-MediumItalic.ttf') format('ttf')
+         url('./fonts/Roboto-Regular.ttf') format('ttf')
+         url('./fonts/Roboto-Thin.ttf') format('ttf')
+         url('./fonts/Roboto-ThinItalic.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 #container {
   width: 100%;
   height: 100vh;
@@ -14,7 +33,7 @@ html, body {
 .label {
   font-size: 2em;
   position: relative;
-  font-family: 'Roboto';
+  font-family: 'roboto';
   font-weight: 100;
   display: inline-block;
   white-space: nowrap;
@@ -67,14 +86,14 @@ div#title {
 
 #title h2 {
   font-size: 1.5em;
-  font-family: 'Roboto';
+  font-family: 'roboto';
   font-weight: 700;
   margin: 0;
   color: rgb(255, 255, 255);
 }
 
 #title h1 {
-  font-family: 'Roboto';
+  font-family: 'roboto';
   font-weight: 100;
   margin: 0;
   font-size: 3em;
@@ -110,7 +129,7 @@ div#fulltimeline {
   background: rgb(180,180,180,0.7);
   right: 30px;
   bottom: 20px;
-  font-family: 'Roboto';
+  font-family: 'roboto';
   font-size: 17px;
   text-align: center;
   line-height: 35px;
@@ -176,7 +195,7 @@ div#fulltimeline:hover {
 a.zoomBox {
   width: 100% !important;
   margin: 0 !important;
-  font-family: 'Roboto' !important;
+  font-family: 'roboto' !important;
   text-transform: uppercase !important;
   font-size: 17px !important;
   height: 30px;
@@ -203,7 +222,7 @@ a.zoomBox {
   width: 90%;
   max-width: 450px;
   color: #ffffff;
-  font-family: 'Roboto';
+  font-family: 'roboto';
   border-radius: 17px;
   z-index: 1000;
   opacity: 0;
@@ -238,7 +257,7 @@ a.zoomBox {
 .leaflet-popup-content {
   overflow: auto !important;
   margin: 0px !important;
-  font-family: 'Roboto';
+  font-family: 'roboto';
 }
 
 .leaflet-popup-content-wrapper, .leaflet-popup.leaflet-zoom-animated {
@@ -260,6 +279,7 @@ a.zoomBox {
 .columnLeft h3, .columnRight h3 {
   margin: 0;
   font-weight: 700;
+  font-family: 'roboto';
 }
 
 .columnRight h3 {
@@ -314,7 +334,7 @@ div#iconkey {
   z-index: 510;
   right: 20px;
   text-align: right;
-  font-family: 'Roboto';
+  font-family: 'roboto';
   font-size: .75em;
   line-height: 1.7em;
   text-transform: uppercase;
@@ -340,7 +360,7 @@ div#viewerselector {
   background: rgb(50,50,50,0.4);
   height: 30px;
   padding-top: 10px;
-  font-family: 'Roboto';
+  font-family: 'roboto';
   font-size: 16px;
   text-transform: uppercase;
   z-index: 510;
@@ -384,7 +404,7 @@ div#attribution {
   z-index: 500;
   color: white;
   font-size: 10px;
-  font-family: 'Roboto';
+  font-family: 'roboto';
   padding-left: 15px;
 }
 
@@ -395,12 +415,12 @@ div#attribution a {
 #title-mobile {
   position: absolute;
   z-index: 1000;
-  font-family: 'Roboto';
+  font-family: 'roboto';
   text-align: center;
   width: 100%;
   font-weight: 800;
   font-size: 24px;
-  font-family: 'Roboto';
+  font-family: 'roboto';
   margin-top: 10px;
   color: #333333;
   display: none;
@@ -411,7 +431,7 @@ div#attribution a {
   text-transform: uppercase;
   margin-left: 5px;
   color: #999999;
-  font-family: 'Roboto';
+  font-family: 'roboto';
 }
 
 .leaflet-zoom-box-control.leaflet-bar.leaflet-control a.zoomBox {
@@ -471,7 +491,7 @@ div#mobilepopupholder {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, .5);
   }
   #mobilepopupholder .year-location {
-    font-family: 'Roboto';
+    font-family: 'roboto';
     font-size: 1.2em;
     border-bottom: solid 2px;
     padding-bottom: 5px;
@@ -479,13 +499,13 @@ div#mobilepopupholder {
     font-weight: 700;
   }
   #mobilepopupholder .title {
-    font-family: 'Roboto';
+    font-family: 'roboto';
     font-size: 1.2em;
     margin-bottom: 5px;
   }
   #mobilepopupholder .description {
     font-size: 1em;
-    font-family: 'Roboto';
+    font-family: 'roboto';
     line-height: 1.5em;
   }
   #mobilepopupholder a.exit img {

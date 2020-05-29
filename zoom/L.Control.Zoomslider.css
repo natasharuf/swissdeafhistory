@@ -63,7 +63,7 @@
 }
 
 .leaflet-control-zoomslider-in {
-  font: bold 18px 'Roboto', Monaco, monospace;
+  font: bold 18px 'roboto';
 }
 
 .leaflet-control-zoomslider-in:after {
@@ -71,7 +71,7 @@
 }
 
 .leaflet-control-zoomslider-out {
-  font: bold 22px 'Roboto', Monaco, monospace;
+  font: bold 22px 'roboto';
 }
 
 .leaflet-control-zoomslider-out:after {

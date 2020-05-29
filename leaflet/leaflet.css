@@ -245,7 +245,7 @@
 	pointer-events: visiblePainted; /* IE 9-10 doesn't have auto */
 	pointer-events: auto;
 	top: -5px;
-	
+
 	}
 
 /* visual tweaks */
@@ -268,7 +268,7 @@
 
 /* general typography */
 .leaflet-container {
-	font: 12px/1.5 "Roboto", Arial, Helvetica, sans-serif;
+	font: 12px/1.5 'roboto', sans-serif;
 	}
 
 
@@ -332,7 +332,7 @@
 
 .leaflet-control-zoom-in,
 .leaflet-control-zoom-out {
-	font: bold 18px 'Roboto', Monaco, monospace;
+	font: bold 18px 'roboto';
 	text-indent: 1px;
 	}
 
