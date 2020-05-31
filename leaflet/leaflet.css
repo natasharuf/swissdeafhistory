@@ -97,7 +97,7 @@
 .leaflet-overlay-pane { z-index: 400; }
 .leaflet-shadow-pane  { z-index: 500; }
 .leaflet-marker-pane  { z-index: 600; }
-.leaflet-tooltip-pane { z-index: 650; }
+.leaflet-tooltip-pane   { z-index: 600; }
 .leaflet-popup-pane   { z-index: 700; }
 
 .leaflet-map-pane canvas { z-index: 100; }
@@ -116,27 +116,29 @@
 
 /* control positioning */
 
+/* control positioning */
+
 .leaflet-control {
 	position: relative;
 	z-index: 800;
 	pointer-events: visiblePainted; /* IE 9-10 doesn't have auto */
 	pointer-events: auto;
 	}
-/*.leaflet-top,
+.leaflet-top,
 .leaflet-bottom {
 	position: absolute;
 	z-index: 1000;
 	pointer-events: none;
-	}*/
+	}
 .leaflet-top {
 	top: 0;
 	}
-/*.leaflet-right {
+.leaflet-right {
 	right: 0;
-	}*/
-/*.leaflet-bottom {
+	}
+.leaflet-bottom {
 	bottom: 0;
-	}*/
+	}
 .leaflet-left {
 	left: 0;
 	}
@@ -144,21 +146,21 @@
 	float: left;
 	clear: both;
 	}
-/*.leaflet-right .leaflet-control {
+.leaflet-right .leaflet-control {
 	float: right;
-	}*/
+	}
 .leaflet-top .leaflet-control {
 	margin-top: 10px;
 	}
-/*.leaflet-bottom .leaflet-control {
+.leaflet-bottom .leaflet-control {
 	margin-bottom: 10px;
-	}*/
+	}
 .leaflet-left .leaflet-control {
 	margin-left: 10px;
 	}
-/*.leaflet-right .leaflet-control {
+.leaflet-right .leaflet-control {
 	margin-right: 10px;
-	}*/
+	}
 
 
 /* zoom and fade animations */
@@ -180,8 +182,6 @@
 	-webkit-transform-origin: 0 0;
 	    -ms-transform-origin: 0 0;
 	        transform-origin: 0 0;
-					z-index: 1;
-
 	}
 .leaflet-zoom-anim .leaflet-zoom-animated {
 	will-change: transform;
@@ -245,7 +245,6 @@
 	pointer-events: visiblePainted; /* IE 9-10 doesn't have auto */
 	pointer-events: auto;
 	top: -5px;
-
 	}
 
 /* visual tweaks */
@@ -268,7 +267,9 @@
 
 /* general typography */
 .leaflet-container {
-	font: 12px/1.5 'roboto', sans-serif;
+	/*font: 12px/1.5 'Roboto Thin', sans-serif;*/
+	font-size: 12px;
+	font-style: normal;
 	}
 
 
@@ -332,7 +333,7 @@
 
 .leaflet-control-zoom-in,
 .leaflet-control-zoom-out {
-	font: bold 18px 'roboto';
+	font: bold 18px 'Roboto Bold';
 	text-indent: 1px;
 	}
 
