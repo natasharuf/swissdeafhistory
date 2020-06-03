@@ -12,7 +12,7 @@ Mein Ziel ist, diese interaktive Webseite kollaborativ und nachhaltig zu gestalt
 
 Dieses Projekt wird in Zukunft dem Verein signX übergeben. Der Verein hat die Aufgabe, die Webseite zu pflegen.  
 
- 
+<br>
 
 ### Dank
 
