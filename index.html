@@ -26,27 +26,27 @@
 
 <body>
     <div id="container">
-        <div id="title-mobile" style="display: none"> history <span id="mobile-title2">Timeline</span></div>
+        <div id="title-mobile" style="display: none"> history <span id="mobile-title2">ZEITLINIE</span></div>
         <div id="title">
-            <h1 class="subtitle1" style="font-size: 17px; border-bottom: 1px solid #999999; line-height:25px;">the history of</h1>
-            <h1 class="title1">Deaf</h1>
+            <h1 class="subtitle1" style="font-size: 17px; border-bottom: 1px solid #999999; line-height:25px;">GESCHICHTE DER</h1>
+            <h1 class="title1">GEHÖRLOSEN</h1>
         </div>
         <div id="viewerselector">
             <div style="margin: 0 auto; width: 330px;">
             <ul>
-                <li id="TimelineSelect"><a style="background-color: rgb(180,180,180,0.7)">Timeline</a></li>
-                <li id="MapSelect"><a>Map</a></li>
+                <li id="TimelineSelect"><a style="background-color: rgb(180,180,180,0.7); border-radius: 5px 0px 0px 5px;">ZEITLINIE</a></li>
+                <li id="MapSelect"><a style="border-radius: 0px 5px 5px 0px;">KARTE</a></li>
             </ul>
                 </div>
         </div>
         <div id="iconkey">
             <ul>
-                <li style="color: #D15050">switzerland</li>
+                <li style="color: #D15050">schweiz</li>
                 <li style="color: #53ADC4">international</li>
                 <li style="color: #F2C1AE">sport</li>
             </ul>
         </div>
-        <div id="fulltimeline" title="Zoom out to view the entire timeline">FULL TIMELINE</div>
+        <div id="fulltimeline" title="Zoom out to view the entire timeline">VOLLANSICHT</div>
         <div id="timelineviewer" style="width: 100%; height: 100vh"></div>
         <div id="mapviewer" style="width: 100%; height: 100vh; background-color: #191a1a; z-index: 500; position: absolute; left: 0; top: 0"></div>
         <div id="mobilepopupholder">
@@ -55,14 +55,16 @@
             <div class="title"></div>
             <div class="description"></div>
         </div>
-        <div id="attribution" style="display:none">Map: ©
+        <!--<div id="attribution" style="display:none">Map: ©
             <a href="https://www.mapbox.com/about/maps/" target="_blank">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> <strong><a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a></strong>
-        </div>
+        </div>-->
     </div>
  <script src="diverse/d3.min.js"></script>
  <script src="data.js"></script>
  <script src="behavior.js"></script>
  <script src="map.js"></script>
+ <script src="linkpopup.js"></script>
+
 
 
 </body>

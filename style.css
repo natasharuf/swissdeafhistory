@@ -553,7 +553,7 @@ div#title {
   font-family: 'Roboto-Thin', sans-serif;
   font-weight: 100;
   margin: 0;
-  font-size: 3em;
+  font-size: 2em;
   text-transform: uppercase;
   color: rgb(255, 255, 255);
 }
@@ -581,7 +581,7 @@ div#title {
 div#fulltimeline {
   position: absolute;
   z-index: 1000;
-  width: 157px;
+  width: 140px;
   height: 35px;
   background: rgb(180,180,180,0.7);
   right: 30px;
@@ -591,6 +591,7 @@ div#fulltimeline {
   text-align: center;
   line-height: 35px;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 div#fulltimeline:hover {
@@ -978,4 +979,23 @@ div#mobilepopupholder {
   .customPopup {
     display: none;
   }
+}
+
+
+/* map canvas */
+
+html {
+    height: 100%
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding 0;
+}
+
+#map_canvas {
+    height: 100%;
+    width: 100%;
+    position: absolute
 }
