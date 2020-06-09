@@ -1,6 +1,6 @@
 var currentview = "timelineviewer";
 var currentpopupdata = [];
-var bounds = [[0,1350], [0,2600]]; //sets the zoom and panning limits, in this case requires the timeline to be in the middle vertically
+var bounds = [[0,1050], [0,2600]]; //sets the zoom and panning limits, in this case requires the timeline to be in the middle vertically
 //Leaflet Map
 var timelineviewer = L.map('timelineviewer',{crs: L.CRS.Simple,
                          maxZoom: 4,
@@ -12,7 +12,7 @@ var timelineviewer = L.map('timelineviewer',{crs: L.CRS.Simple,
                          maxBounds: bounds});
 //Canvas rendering turned on for better performance
 
-timelineviewer.fitBounds([[0,1050], [68,2150]]);
+timelineviewer.fitBounds([[0,1050], [0,2600]]);
 
 //yearmarker layer, placed up here so it draws at the bottom
 var yearLayer = L.layerGroup.collision({margin: 4});

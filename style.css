@@ -476,7 +476,8 @@
 #container {
   width: 100%;
   height: 100vh;
-  background-color: #ffffff;
+  background-image: url("images/diplomarbeit_hintergrund_augustinus.jpg");
+  background-size:cover;
 }
 
 html, body {
@@ -510,16 +511,16 @@ html, body {
 
 .leaflet-marker-icon.timeline-part {
   height: 3px !important;
-  width: 1000px !important;
+  width: 2000px !important;
   background-color: gray !important;
   z-index: 90 !important;
-  margin-left: -500px !important;
+  margin-left: -1000px !important;
 }
 
 #timelineviewer {
-  background-color: black;
-  /*background-image: url("images/historia-martha-vineyard-dark.jpg");*/
-  /*background-size:cover;*/
+  background:none;
+  /*background-image: url("images/diplomarbeit_hintergrund_aristoteles.jpg");
+  background-size:cover;*/
 }
 
 .leaflet-marker-pane img {
@@ -752,6 +753,7 @@ a.zoomBox {
   hyphens: auto;
   color: white;
   padding: 5px;
+  margin-bottom: 20px;
 
 }
 
@@ -839,21 +841,31 @@ div#viewerselector {
 #mapviewer .columnRight {
   padding:10px;
   padding-bottom: 20px;
-  background-color: rgba(0, 0, 0, 0.54);
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 0px 5px 5px 0px;
 }
 
 #timelineviewer .columnRight {
   padding:10px;
   padding-bottom: 20px;
-  background-color: rgba(0, 0, 0, 0.54);
-}
-
-#mapviewer .columnRight {
-  background-color: rgba(0, 0, 0, 0.54);
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 0px 5px 5px 0px;
 }
 
 #mapviewer .columnLeft h3 {
   text-shadow: 0px 2px black;
+}
+
+#mapviewer .columnLeft {
+  padding-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 5px 0px 0px 5px;
+}
+
+#timelineviewer .columnLeft {
+  padding-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 5px 0px 0px 5px;
 }
 
 div#attribution {
@@ -982,20 +994,10 @@ div#mobilepopupholder {
 }
 
 
-/* map canvas */
+/* zufallsbild */
 
-html {
-    height: 100%
-}
-
-body {
-    height: 100%;
-    margin: 0;
-    padding 0;
-}
-
-#map_canvas {
-    height: 100%;
-    width: 100%;
-    position: absolute
+.zufallsbild {
+  width: 100%;
+  height: auto;
+  background-repeat: none;
 }
