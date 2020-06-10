@@ -771,7 +771,6 @@ a.zoomBox {
   color: orange;
   position: fixed;
   overflow; auto;
-
 }
 
 a.leaflet-popup-close-button {
@@ -991,6 +990,11 @@ div#mobilepopupholder {
   .customPopup {
     display: none;
   }
+}
+
+#mobilepopupholder a {
+  color: orange;
+  text-decoration: none;
 }
 
 
