@@ -1,5 +1,5 @@
 var dataset = [
-["Abbé de l'Epée", 1755, "international", "Abbé Charles-Michel de l’Epée (* 25. November 1712 in Versailles; † 23. Dezember 1789 in Paris) war ein Pionier der Gehörlosenpädagogik.<br><a href='http://google.de'>Quelle</a>", "Paris"],
+["Abbé de l'Epée", 1755, "international", "Abbé Charles-Michel de l’Epée (* 25. November 1712 in Versailles; † 23. Dezember 1789 in Paris) war ein Pionier der Gehörlosenpädagogik.<br><a href='http://google.de'>Quelle</a>", "Paris", "diplomarbeit_hintergrund_aristoteles.jpg"],
   ["Pierre Desogles", 1779, "international", "xxx", "Paris"],
   ["Beginn der französischen Revolution", 1789, "international", "Französische Revolution. Am 14. Juli des Jahres 1789: Aufständische greifen ein Gefängnis in Paris an, die Bastille. Die Gefangenen der alten Herrscher sollten befreit werden. Dies gilt als Beginn der Revolution. Quelle:", "France"],
   ["Ende der französischen Revolution", 1799, "international", "xxx", "France"],

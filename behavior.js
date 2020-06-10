@@ -78,6 +78,7 @@ for(var lineNumber = 0; lineNumber < dataset.length; lineNumber++) {
                 text = dataset[lineNumber][3];
                 year = dataset[lineNumber][1];
                 markerLocation = dataset[lineNumber][4];
+                let imgUrl = dataset[lineNumber][5];
                 if (markerLocation == undefined) {
                     markerLocation = '';
                 }
@@ -104,7 +105,7 @@ for(var lineNumber = 0; lineNumber < dataset.length; lineNumber++) {
                     markerIcon = sport;
                 }*/
 
-                marker = L.marker([latitude,longtitude], {riseOnHover: true, icon: markerIcon}).addTo(markers).bindPopup(popupComplete, {minWidth: 745, autoPan: false}).on('click',movePopup);
+                marker = L.marker([latitude,longtitude], {riseOnHover: true, icon: markerIcon}).addTo(markers).bindPopup(popupComplete, {minWidth: 745, autoPan: false}).on('click',movePopup).on('click',function(e){setBackground(e, imgUrl)});
 
 };
 // Add the cluster group to the map
@@ -128,6 +129,28 @@ d3.select('.zoomBox').html('Zoom to area').on('click', function() {
         hideNotification();
     }
 })*/
+
+
+
+
+function setBackground(e, url) {
+  console.log("function to set background", url);
+
+
+  $('#container').css({'background-image': 'url(./images/' + url + ')'});
+
+// hier der code um das bild zu setzen
+// so etwas wie:
+// $('....').src(url)
+
+// du bekommst den URL in der variable url
+
+  // Hier kannst du nun den code einfügen um den hintergrund zu wechselnt.
+  // bekommst du das hin? ja okay, aber es ist zufallsbilder oder?
+  // du möchtest über data.js steuern
+
+}
+
 
 // formula to determine how tall a marker popup needs to be
 function determinePopupHeight(characters) {

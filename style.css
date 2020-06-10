@@ -996,12 +996,3 @@ div#mobilepopupholder {
   color: orange;
   text-decoration: none;
 }
-
-
-/* zufallsbild */
-
-.zufallsbild {
-  width: 100%;
-  height: auto;
-  background-repeat: none;
-}
