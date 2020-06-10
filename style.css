@@ -476,6 +476,7 @@
 #container {
   width: 100%;
   height: 100vh;
+  transition: all 1s ease-out;
   background-image: url("images/diplomarbeit_hintergrund_augustinus.jpg");
   background-size:cover;
 }
@@ -723,13 +724,14 @@ a.zoomBox {
   box-shadow: none !important;
   background: none;
   pointer-events: none;
+  margin: 0px;
 }
 
-/*
-.leaflet-popup {
+
+/*.leaflet-popup {
     left: -130px !important;
-}
-*/
+}*/
+
 
 .leaflet-popup-tip-container {
   display: none;
@@ -817,7 +819,7 @@ div#viewerselector {
   width: 120px;
   float: left;
   color: #fff;
-  background: rgb(50,50,50,0.4);
+  background: rgb(10,10,10,0.8);
   height: 30px;
   padding-top: 10px;
   font-family: 'Roboto';
@@ -840,14 +842,14 @@ div#viewerselector {
 #mapviewer .columnRight {
   padding:10px;
   padding-bottom: 20px;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0px 5px 5px 0px;
 }
 
 #timelineviewer .columnRight {
   padding:10px;
   padding-bottom: 20px;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0px 5px 5px 0px;
 }
 
@@ -857,13 +859,13 @@ div#viewerselector {
 
 #mapviewer .columnLeft {
   padding-bottom: 20px;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.7);
   border-radius: 5px 0px 0px 5px;
 }
 
 #timelineviewer .columnLeft {
   padding-bottom: 20px;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.7);
   border-radius: 5px 0px 0px 5px;
 }
 

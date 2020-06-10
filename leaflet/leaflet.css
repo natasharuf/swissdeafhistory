@@ -52,7 +52,7 @@
 
 /* linie höhe */
 .leaflet-marker-pane {
-	margin-top: 110px;
+	margin-top: 100px;
 }
 
 .leaflet-container.leaflet-touch-zoom {
@@ -97,7 +97,7 @@
 .leaflet-overlay-pane { z-index: 400; }
 .leaflet-shadow-pane  { z-index: 500; }
 .leaflet-marker-pane  { z-index: 600; }
-.leaflet-tooltip-pane   { z-index: 600; }
+.leaflet-tooltip-pane   { z-index: 650; }
 .leaflet-popup-pane   { z-index: 700; }
 
 .leaflet-map-pane canvas { z-index: 100; }
@@ -114,7 +114,6 @@
 	}
 
 
-/* control positioning */
 
 /* control positioning */
 
@@ -267,9 +266,7 @@
 
 /* general typography */
 .leaflet-container {
-	/*font: 12px/1.5 'Roboto Thin', sans-serif;*/
-	font-size: 12px;
-	font-style: normal;
+	font: 12px/1.5 "Roboto", Arial, Helvetica, sans-serif;
 	}
 
 
