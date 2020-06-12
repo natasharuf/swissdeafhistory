@@ -701,6 +701,7 @@ a.zoomBox {
   border-right: #000 solid 2px;
   pointer-events: none;
   padding-bottom: 35px;
+  z-index: 1;
 }
 
 .customPopup .columnRight {
@@ -708,8 +709,8 @@ a.zoomBox {
   width: 314px;
   height: 170px;
   text-align: left;
-  /*padding-left: 10px;
-  padding-right: 10px;*/
+  padding-left: 10px;
+  padding-right: 10px;
   pointer-events: none;
   z-index: 1;
 }
@@ -724,7 +725,7 @@ a.zoomBox {
   box-shadow: none !important;
   background: none;
   pointer-events: none;
-  margin: 0px;
+  margin-bottom: 10.5px;
 }
 
 
@@ -755,7 +756,7 @@ a.zoomBox {
   hyphens: auto;
   color: white;
   padding: 5px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 
 }
 
@@ -783,12 +784,12 @@ a.leaflet-popup-close-button {
 
 .popUpBelow {
   bottom: unset !important;
-  top: 20px !important;
+  top: 0px !important;
 }
 
 .popUpBelow .columnLeft, .popUpBelow .columnRight {
-  padding-top: 35px;
-  padding-bottom: 0px !important;
+  padding: 10px;
+  padding-bottom: 40px !important;
 }
 
 div#iconkey {
@@ -841,14 +842,14 @@ div#viewerselector {
 
 #mapviewer .columnRight {
   padding:10px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0px 5px 5px 0px;
 }
 
 #timelineviewer .columnRight {
   padding:10px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0px 5px 5px 0px;
 }
@@ -858,13 +859,13 @@ div#viewerselector {
 }
 
 #mapviewer .columnLeft {
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 5px 0px 0px 5px;
 }
 
 #timelineviewer .columnLeft {
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 5px 0px 0px 5px;
 }

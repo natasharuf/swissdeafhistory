@@ -12,7 +12,7 @@ var timelineviewer = L.map('timelineviewer',{crs: L.CRS.Simple,
                          maxBounds: bounds});
 //Canvas rendering turned on for better performance
 
-timelineviewer.fitBounds([[0,1050], [68,2600]]);
+timelineviewer.fitBounds([[0,1050], [0,2600]]);
 
 //yearmarker layer, placed up here so it draws at the bottom
 var yearLayer = L.layerGroup.collision({margin: 4});
@@ -117,18 +117,6 @@ d3.select('#fulltimeline').on('click', function() {
     $('.leaflet-div-icon').css('display','none');
     timelineviewer.flyToBounds([[0,1050], [0,2600]])
 });
-
-// the ZoomBox button plugin
-/*var zoomcontrol = L.control.zoomBox({modal: false, position: 'bottomright', className: "zoomBox"}).addTo(timelineviewer)
-
-d3.select('.zoomBox').html('Zoom to area').on('click', function() {
-    zoomBoxColor = d3.select('.zoomBox').style('background-color')
-    if (zoomBoxColor == 'rgb(244, 244, 244)') {
-        showNotification('draw a rectangle over the area you want to zoom to');
-    } else {
-        hideNotification();
-    }
-})*/
 
 
 
@@ -306,7 +294,6 @@ window.onload = function() {
    $('#mapviewer').css('display','none');
    $('#TimelineSelect a').css('background-color','#ffffff');
    $('#TimelineSelect a').css('color','#000000');
-   /*showNotification('click and drag to pan, scroll to zoom');*/
    initializeMap();
    $('#mobilepopupholder a.exit').click(function(){hideMobilePopup()})
 }
