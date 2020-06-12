@@ -72,6 +72,8 @@ yearLayer.addTo(timelineviewer)
 // loop for making all the points on the timeline
 for(var lineNumber = 0; lineNumber < dataset.length; lineNumber++) {
 
+console.log("dataset-linie", dataset[lineNumber]);
+
                 latitude = 0;
                 longtitude = dataset[lineNumber][1];
                 title = dataset[lineNumber][0];

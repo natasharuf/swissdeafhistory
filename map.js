@@ -55,6 +55,12 @@ for(var lineNumber = 0; lineNumber < dataset.length; lineNumber++) {
                 } else if (markerLocation == 'Washington D.C.') {
                     latitude = 39;
                     longtitude = -77;
+                } else if (markerLocation == 'Connecticut') {
+                  latitude = 41;
+                  longtitude = -72.9;
+                } else if (markerLocation == 'Vancouver') {
+                  latitude = 49.3;
+                  longtitude = -123.2;
                 } else if (markerLocation == 'Italy') {
                     latitude = 41.9;
                     longtitude = 12.6;
@@ -69,6 +75,9 @@ for(var lineNumber = 0; lineNumber < dataset.length; lineNumber++) {
                     longtitude = 8.2;
                 } else if (markerLocation == 'Zurich') {
                     latitude = 47;
+                    longtitude = 8.2;
+                } else if (markerLocation == 'Luzern') {
+                    latitude = 47.1;
                     longtitude = 8.2;
                 } else {
                     continue;
