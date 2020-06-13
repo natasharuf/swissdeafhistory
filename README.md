@@ -6,7 +6,7 @@ Ich erstelle eine interaktive Webseite für meine Diplomarbeit für «Interactio
 
 Die Gehörlosengeschichte hatte bis jetzt keine eigene Webseite. Das wollte ich ändern. Deshalb gestaltete ich sofort eine erste Version der Webseite. Dafür habe ich zuerst ein Konzept geschrieben. Darin steht, wie die Webseite aussehen soll. Hier geht es zu meinem [«Konzept»](https://docs.google.com/document/d/1QWT3yNu7-PoOpyn0Idse96WU21bV49XJvWRQCJSFWEg/edit?usp=sharing)
 
-Nach der Erstellung der Webseite machte ich einen UX Research. Daraus entstanden weitere Ideen, Wünsche und Aspekte, die noch besser gemacht werden können. Meine Designarbeit – Scribble, Wireframe, Mockup und Styleguide – befindet sich auf [«Figma»](https://www.figma.com/file/1wZOlRcjNjfTZJku97aN0Q/the-history-of-the-deaf-swiss?node-id=1%3A7)
+Nach der Erstellung der Webseite machte ich einen UX Research. Daraus entstanden weitere Ideen, Wünsche und Aspekte, die noch besser gemacht werden können. Meine Designarbeit – Scribble, Wireframe und Mockup – befindet sich auf [«Figma»](https://www.figma.com/file/1wZOlRcjNjfTZJku97aN0Q/the-history-of-the-deaf-swiss?node-id=1%3A7)
 
 Mein Ziel ist, diese interaktive Webseite kollaborativ und nachhaltig zu gestalten. Die Interessierten sollen auf der Webseite jederzeit weitere vergessen gegangene oder unsichtbare Geschichten aus den Bibliotheken oder Archiven ausgraben, auf der Webseite hinzufügen können und so sichtbar machen.
 
