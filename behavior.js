@@ -130,8 +130,8 @@ function setBackground(e, url) {
 
   $('#container').css({'background-image': 'url(./images/' + url + ')'});
 
-
 }
+
 
 
 // formula to determine how tall a marker popup needs to be

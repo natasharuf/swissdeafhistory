@@ -79,6 +79,9 @@ for(var lineNumber = 0; lineNumber < dataset.length; lineNumber++) {
                 } else if (markerLocation == 'Luzern') {
                     latitude = 47.1;
                     longtitude = 8.2;
+                } else if (markerLocation == 'Bern') {
+                    latitude = 47;
+                    longtitude = 8;
                 } else {
                     continue;
                 }
